@@ -2,7 +2,9 @@ AWS VPC module for Terraform
 
 A lightweight VPC module for Terraform.
 
-Usage
+
+## Usage
+
 module "vpc_basic" {
   source = "github.com/turnbullpress/tf_vpc_basic"
 
@@ -11,5 +13,10 @@ module "vpc_basic" {
   cidr = "10.0.0.0/16"
   public_subnet = "10.0.1.0/24"
 }
+
+
+
+
+
 See interface.tf for additional configurable variables.
 
