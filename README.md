@@ -6,7 +6,7 @@ A lightweight VPC module for Terraform.
 ## Usage
 
 module "vpc_basic" {
-  source = "github.com/turnbullpress/tf_vpc_basic"
+  source = "github.com/vinodsamant/tf_vpc_basic"
 
   name = "vpc_name"
 
